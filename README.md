@@ -86,7 +86,7 @@ Also, note that you only need to get the lending (supply) rates. You don't need 
 ## Regarding Historical Data
 
 When querying an Ethereum node via RPC, you can pass in a block number in the
-pas so long as it is within 128 blocks of the current block. this is why the
+past so long as it is within 128 blocks of the current block. this is why the
 historical data requirement is set to 128 blocks, which is a little more than
 30 minutes worth of data.
 
