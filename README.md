@@ -90,7 +90,7 @@ past so long as it is within 128 blocks of the current block. this is why the
 historical data requirement is set to 128 blocks, which is a little more than
 30 minutes worth of data.
 
-Therefore, when we run your app, we expect to see 30 minutes of historical data,
+Therefore, when we run your app, we expect to see at least 30 minutes of historical data,
 with new data being appended as it comes in.
 
 More info on querying past blocks here (see overrides.blockTag):
