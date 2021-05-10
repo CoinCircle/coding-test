@@ -7,11 +7,10 @@ allows you to compare historical DAI interest rates across the top 3 on-chain
 protocols that allow you to earn interest on DAI:
 
 1. Compound Finance
-2. The DAI Savings Rate
-3. (choose your own for the 3rd!)
+2. Choose your own for the 2nd! (for example The DAI Savings Rate)
 
 Part 2 is a simple solidity contract that queries the current interest rate
-from all 3 of those procotols
+from all 2 of those procotols
 
 You will be judged on the following:
 
@@ -40,14 +39,6 @@ rate for the 3 protocols
 
 More helpful info regarding the smart contract portion is mentioned below.
 
-## Getting Started
-
-1. Clone this repo - do NOT fork it.
-2. Create a new, public github repo using this repo as a starting point. If you
-prefer, you can upload a private repo so long as you also give access to the
-following Github accounts: `erickmiller`, `coopermaruyama`.
-3. Complete this test in your new repo.
-4. At any time, if you have questions, email one of us.
 
 <br>
 
