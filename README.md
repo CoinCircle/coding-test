@@ -10,7 +10,7 @@ protocols that allow you to earn interest on DAI:
 2. Choose your own for the 2nd! (for example The DAI Savings Rate)
 
 Part 2 is a simple solidity contract that queries the current interest rate
-from all 2 of those procotols
+from both of those procotols
 
 You will be judged on the following:
 
