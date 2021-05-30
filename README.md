@@ -3,7 +3,7 @@
 This is a 2-part test:
 
 The first part involves creating a very simple full-stack application that
-allows you to compare historical DAI interest rates across the top 3 on-chain
+allows you to compare historical DAI interest rates across the top 2 on-chain
 protocols that allow you to earn interest on DAI:
 
 1. Compound Finance
@@ -35,7 +35,7 @@ You will be judged on the following:
 
 1. Should be deployed on the Ropsten Network.
 2. Implements a single function `getRates()` that returns the current interest
-rate for the 3 protocols
+rate for the 2 protocols
 
 More helpful info regarding the smart contract portion is mentioned below.
 
