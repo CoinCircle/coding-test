@@ -21,16 +21,10 @@ You will be judged on the following:
 
 **The full-stack application must be written according to the following specifications:**
 
-1. The backend must be written in either node/express or golang.
-2. The front-end must be written in React
-3. If you use a database (which you probably will need to) it should use Postgres.
-4. If you use a cache, use Redis.
-5. The application must fully load quickly (less than 500ms).
-6. The UI must render a historical graph that live updates as the interest rates change.
-7. The application must show at least 128 blocks. For the historical data, your web application may query contracts besides your own as well as any other on-chain data.
-8. The application must be containerized in a docker container.
-9. The application should include a Makefile, and when we test it in a fresh enviornment, we should be able to run the application using a single command `make run` and the application should run at `http://localhost:3001`
-10. As you are building, you should use github to push commits. The final app should be published on github, which is where we will find it. Name it something original that you think sounds cool.  Please be sure to NOT call it anything with the words CoinCircle or Coding Test or CoinCircle Coding Test or anything similar.  Once you have published it and tested that it can be downloaded and run from a new enviornment with `make run` please email us and let us know it's ready for us to try out.
+1. The application must fully load quickly (less than 500ms).
+2. The UI must render a historical graph that live updates as the interest rates change.
+3. The application must show at least 128 blocks. For the historical data, your web application may query contracts besides your own as well as any other on-chain data.
+4. As you are building, you should use github to push commits. The final app should be published on github, which is where we will find it. Name it something original that you think sounds cool.  Please be sure to NOT call it anything with the words CoinCircle or Coding Test or CoinCircle Coding Test or anything similar.  Once you have published it and tested that it can be downloaded and run from a new enviornment with `make run` please email us and let us know it's ready for us to try out.
 
 **The solidity contract should be written according to the following specifications:**
 
@@ -48,6 +42,27 @@ prefer, you can upload a private repo so long as you also give access to the
 following Github accounts: `erickmiller`, `coopermaruyama`.
 3. Complete this test in your new repo.
 4. At any time, if you have questions, email one of us.
+
+## Boilerplate
+
+A NodeJS / Express / React boilerplate is already created for you in this repo.
+
+To get started running it:
+
+1. Run `yarn install` to install dependencies
+2. Install docker if you don't have it already, and start the containers with `docker compose up -d`
+3. In terminal #1, run `npm run build:watch` to generate webpack bundle
+4. In terminal #2, run `make serve` to start the express server, which is available at `localhost:3001`.
+
+The following ports are mapped for you for development/debugging purposes:
+
+* Node debugger: Port 9230
+* Redis: Port 6377
+* Postgres
+  * Port: 5430
+  * Username: pguser
+  * Password: password
+  * Database: app
 
 <br>
 

@@ -1,0 +1,41 @@
+version: "2"
+services:
+    web:
+        tty: true
+        stdin_open: true
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        command: "/bin/bash"
+        volumes:
+            - $PWD/:/app
+        ports:
+            - "3001:3000"
+            # Allows node debugger to connect at port 9230
+            - "9230:9229"
+        links:
+            - redis
+            - postgres
+        environment:
+            - NODE_ENV=development
+            - ROOT_DIR=/app
+            - NODE_PATH=/usr/local/lib/node_modules/
+
+    redis:
+        image: redis
+        ports:
+            - "6377:6379"
+    postgres:
+        image: postgres:9
+        volumes:
+          - "db-data:/var/lib/postgresql/data/pgdata"
+        environment:
+            PGDATA: "/var/lib/postgresql/data/pgdata"
+            POSTGRES_USER: "pguser"
+            POSTGRES_PASSWORD: "password"
+            POSTGRES_DB: "app"
+        ports:
+            # From host machine, pg is connectable at port 5430
+            - "5430:5432"
+volumes:
+  db-data:
