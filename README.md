@@ -1,10 +1,11 @@
 # CoinCircle Coding Test
 
-This is a 2-part test:
+## This is a 2-part test, each part is independent of the other part, and can be completed individually without any dependencies from Part 1 to Part 2:
 
-The first part involves creating a very simple full-stack application that
+<hr>
+**The First part (Part 1) involves creating a very simple full-stack application that
 allows you to compare historical DAI interest rates across the top 2 on-chain
-protocols that allow you to earn interest on DAI:
+protocols that allow you to earn interest on DAI:**
 
 1. Compound Finance
 2. Choose your own for the 2nd! (for example The DAI Savings Rate)
@@ -18,14 +19,16 @@ You will be judged on the following:
 2. Design UX/UI
 3. Performance (speed)
 
-**The full-stack application must be written according to the following specifications:**
+The full-stack application must be written according to the following specifications:
 
 1. The application must fully load quickly (less than 500ms).
 2. The UI must render a historical graph that live updates as the interest rates change.
 3. The application must show at least 128 blocks. For the historical data, your web application may query contracts besides your own as well as any other on-chain data.
 4. As you are building, you should use github to push commits. The final app should be published on github, which is where we will find it. Name it something original that you think sounds cool.  Please be sure to NOT call it anything with the words CoinCircle or Coding Test or CoinCircle Coding Test or anything similar.  Once you have published it and tested that it can be downloaded and run from a new enviornment with `make run` please email us and let us know it's ready for us to try out.
 
-**The solidity contract should be written according to the following specifications:**
+<hr>
+
+**The Second part (Part 2) of the test involves writing a solidity contract, which should be written according to the following specifications:**
 
 1. Should be deployed on the Ropsten Network.
 2. Implements a single function `getRates()` that returns the current interest
