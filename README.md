@@ -3,7 +3,8 @@
 ## This is a 2-part test, each part is independent of the other part, and can be completed individually without any dependencies from Part 1 to Part 2:
 
 <hr>
-**The First part (Part 1) involves creating a very simple full-stack application that
+
+**1. The First part (Part 1) involves creating a very simple full-stack application that
 allows you to compare historical DAI interest rates across the top 2 on-chain
 protocols that allow you to earn interest on DAI:**
 
@@ -28,7 +29,7 @@ The full-stack application must be written according to the following specificat
 
 <hr>
 
-**The Second part (Part 2) of the test involves writing a solidity contract, which should be written according to the following specifications:**
+**2. The Second part (Part 2) of the test involves writing a solidity contract, which should be written according to the following specifications:**
 
 1. Should be deployed on the Ropsten Network.
 2. Implements a single function `getRates()` that returns the current interest
@@ -36,6 +37,7 @@ rate for the 2 protocols
 
 More helpful info regarding the smart contract portion is mentioned below.
 
+<hr>
 
 ## Boilerplate
 
