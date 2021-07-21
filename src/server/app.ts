@@ -1,4 +1,5 @@
 import express, { Request, Response } from 'express';
+require('./lib/db'); // using require prevents webpack from tree-shaking it out
 
 const app = express();
 
