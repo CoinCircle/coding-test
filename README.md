@@ -8,8 +8,16 @@
 allows you to compare historical DAI interest rates across the top 2 on-chain
 protocols that allow you to earn interest on DAI:**
 
-1. Compound Finance
-2. Choose your own for the 2nd! (for example The DAI Savings Rate)
+1. [Compound Finance](https://compound.finance)
+2. Choose your own for the 2nd! (for example The DAI Savings Rate). Some examples:
+   * [DAI Savings Rate](https://makerdao.world/en/learn/Dai/dsr/)
+   * [Aave](https://aave.com)
+
+If you're unfamiliar with DAI, you can read about it here: https://docs.makerdao.com/smart-contract-modules/dai-module
+
+DAI is a special cryptocurrency that maintains a value of exactly $1. The protocols above are implementations of blockchain
+applications that allow you to lend DAI to others, and earn interest on it in a completely decentralized, autonomous way
+without having to interact with a bank, middleman, or even a web server.
 
 Part 2 is a simple solidity contract that queries the current interest rate
 from both of those procotols
