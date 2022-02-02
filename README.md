@@ -1,7 +1,5 @@
 # CoinCircle Coding Test
 
-## This is a 2-part test, each part is independent of the other part, and can be completed individually without any dependencies from Part 1 to Part 2:
-
 <hr>
 
 **1. The First part (Part 1) involves creating a very simple full-stack application that
