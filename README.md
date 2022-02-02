@@ -39,15 +39,6 @@ for this is because there is not much activity on the testnets as compared to th
 
 <hr>
 
-**2. The Second part (Part 2) of the test involves writing a solidity contract, which should be written according to the following specifications:**
-
-1. Should be deployed on the Ropsten Network.
-2. Implements a single function `getRates()` that returns the current interest
-rate for the 2 protocols
-
-More helpful info regarding the smart contract portion is mentioned below.
-
-<hr>
 
 ## Boilerplate
 
