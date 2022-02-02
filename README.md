@@ -58,26 +58,6 @@ The following ports are mapped for you for development/debugging purposes:
 
 <br>
 
-# Writing Your Smart Contract
-
-The easiest way to do this part is using [Remix](https://remix.ethereum.org/).
-
-You will also need [MetaMask](https://metamask.io/).
-
-Also, you will need some test Ether to deploy your contract. Here are 2 faucets
-you can use that will give you free Ropsten ETH:
-
- * [Ropsten Faucet](https://faucet.ropsten.be/)
- * [MetaMask Ropsten Faucet](https://faucet.metamask.io/)
-
-You can find the contract addresses for compound's Ropsten contracts here:
-https://compound.finance/docs#networks
-
-Here are the Ropsten contract addresses and ABI's for DAI:
-https://changelog.makerdao.com/releases/ropsten/1.0.4/index.html
-
-Here is a guide on getting the DAI Savings Rate:
-https://github.com/makerdao/developerguides/blob/master/dai/dsr-integration-guide/dsr-integration-guide.md#how-to-calculate-rates-and-savings
 
 # Helpful Info
 
