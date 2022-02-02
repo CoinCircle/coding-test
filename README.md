@@ -2,7 +2,7 @@
 
 <hr>
 
-**1. The First part (Part 1) involves creating a very simple full-stack application that
+**1. The test involves creating a very simple full-stack application that
 allows you to compare historical DAI interest rates across the top 2 on-chain
 protocols that allow you to earn interest on DAI:**
 
