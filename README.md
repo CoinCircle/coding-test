@@ -3,7 +3,7 @@
 <hr>
 
 **1. The test involves creating a very simple full-stack application that
-allows you to compare historical DAI interest rates across the top 2 on-chain
+allows you to compare historical DAI interest rates across the top on-chain
 protocols that allow you to earn interest on DAI:**
 
 1. [Compound Finance](https://compound.finance)
@@ -16,9 +16,6 @@ If you're unfamiliar with DAI, you can read about it here: https://docs.makerdao
 DAI is a special cryptocurrency that maintains a value of exactly $1. The protocols above are implementations of blockchain
 applications that allow you to lend DAI to others, and earn interest on it in a completely decentralized, autonomous way
 without having to interact with a bank, middleman, or even a web server.
-
-Part 2 is a simple solidity contract that queries the current interest rate
-from both of those procotols
 
 You will be judged on the following:
 
