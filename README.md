@@ -13,7 +13,7 @@ protocols that allow you to earn interest on DAI:**
 
 If you're unfamiliar with DAI, you can read about it here: https://docs.makerdao.com/smart-contract-modules/dai-module
 
-DAI is a special cryptocurrency that maintains a value of exactly $1. The protocols above are implementations of blockchain
+DAI is a type of cryptocurrency called a "stable coin" that maintains a value of $1. The protocols above are implementations of blockchain
 applications that allow you to lend DAI to others, and earn interest on it in a completely decentralized, autonomous way
 without having to interact with a bank, middleman, or even a web server.
 
@@ -29,8 +29,7 @@ The full-stack application must be written according to the following specificat
 2. The UI must render a historical graph that live updates as the interest rates change.
 3. The application must show at least 128 blocks. For the historical data, your web application may query contracts besides your own as well as any other on-chain data.
 4. As you are building, you should use github to push commits. The final app should be published on github, which is where we will find it. Name it something original that you think sounds cool.  Please be sure to NOT call it anything with the words CoinCircle or Coding Test or CoinCircle Coding Test or anything similar.  Once you have published it and tested that it can be downloaded and run from a new enviornment with `make run` please email us and let us know it's ready for us to try out.
-5. Use the main ethereum mainnet to query the interest rates, rather than the testnet which is recommended for the 2nd part of this test. The reason
-for this is because there is not much activity on the testnets as compared to the mainnet, so you will end up with a flat graph.
+5. Use the main ethereum mainnet to query the interest rates, rather than the testnet. The reason for this is because there is not much activity on the testnets as compared to the mainnet, so you will end up with a flat graph if you use testnet.
 
 <hr>
 
