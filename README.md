@@ -87,3 +87,4 @@ https://docs.ethers.io/v5/api/contract/contract/#Contract-functionsCall
 
 * Compound cToken Solidity Interface: https://github.com/compound-finance/compound-protocol/blob/master/contracts/CTokenInterfaces.sol
 * Etherscan cDAI contract (mainnet): https://etherscan.io/token/0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643#readContract
+* AAVE Deployed Contract Addresses (mainnet): https://docs.aave.com/developers/v/2.0/deployed-contracts/deployed-contracts
